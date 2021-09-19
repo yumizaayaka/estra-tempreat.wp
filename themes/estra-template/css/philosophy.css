@@ -1,0 +1,97 @@
+.philosophy {
+    height: 1000px;
+    text-align: center;
+}
+.philosophy-list {
+    margin: 100px 20%;
+}
+.philosophy-ttl {
+    padding-bottom: 30px;
+    font-size: 60px;
+    text-align: left;
+    text-shadow:
+        4px 0 0 #f1b667,
+        0 1px 0 #f1b667,
+        -1px 0 0 #f1b667,
+        0 -1px 0 #f1b667;
+}
+.philosophy-sub-ttl {
+    font-size: 30px;
+    text-align: left;
+}
+.philosophy-text {
+    padding: 20px 0;
+    margin-left: 10%;
+    font-size: large;
+    text-align: left;
+}
+.philosophy-content {
+    height: 200px;
+    margin-top: 40px;
+    text-align: center;
+}
+.philosophy-content-ttl {
+    font-size: xx-large;
+    padding-bottom: 40px;
+}
+
+.about-group {
+    height: 300px;
+}
+.about-flex {
+    height: 150px;
+    margin: 50px 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.about-group-sec {
+    padding: 50px 50px;
+    text-align: center;
+    border-right: 1px solid #000;
+}
+.about-group-sec-ttl {
+    font-size: x-large;
+}
+.about-group-sec:after{
+    border-right: none;
+}
+.about-group-sec:last-child {
+    border-right: unset;
+}
+
+
+@media screen and (max-width: 768px) {
+    .philosophy-sub-ttl {
+        font-size: 20px;
+    }
+    .philosophy-text {
+        font-size: 12px;
+        margin-left: 15%;
+    }
+
+    .philosophy-content-ttl {
+        font-size: 30px;
+        padding-bottom: 40px;
+    }
+    .philosophy-content-text {
+        font-size: 10px;
+    }
+    .about-group {
+        height: 150px;
+    }
+    .about-flex {
+        height: 80px;
+        margin: 20px 20px;
+    }
+    .about-group-sec {
+        padding: 20px 10px;
+        text-align: center;
+        border-right: 1px solid #000;
+    }
+    .about-group-sec-ttl {
+        font-size: 6px;
+    }
+    .about-group-sec p{
+        font-size: 2px;
+    }
+}

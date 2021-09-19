@@ -1,0 +1,241 @@
+@charset "utf-8";
+
+* {
+    box-sizing: border-box;
+    font-family: 'Klee One', cursive;
+
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+li{
+    list-style: none;
+}
+p{
+    letter-spacing: 0.15em;
+    line-height: 1.5;
+}
+.wrap {
+    width: 1000px;
+    margin: 0 auto;
+}
+.img {
+    width: 100%;
+    margin: 0 auto;
+}
+.site-ttl {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+    text-shadow:
+        4px 0 0 #f1b667,
+        0 1px 0 #f1b667,
+        -1px 0 0 #f1b667,
+        0 -1px 0 #f1b667;
+}
+
+.first-view {
+    height: 300px;
+    text-align: center;
+    padding-top: 100px;
+}
+.first-view-ttl {
+    font-size: xxx-large;
+    margin: 40px 0 20px;
+}
+.first-view-sub-ttl {
+    padding: 0 0 50px;
+    font-weight: bold;
+}
+.first-view-text {
+    font-size: x-large;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    padding: 0 40px;
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+}
+.header-ttl {
+    margin-top: 25px;
+    font-size: x-large;
+}
+.header-nav-list {
+    display: flex;
+    margin-top: 25px;
+}
+.header-nav-item {
+    padding-right: 50px;
+}
+.header-nav-item-ttl {
+    font-weight: bold;
+}
+
+.header-nav-item p{
+    font-size: 10px;
+    text-align: center;
+}
+.header-nav-item-contact{
+    border: 1px solid #fff;
+    border-radius: 30px;
+    background-color: #fff;
+    padding: 10px 30px;
+}
+.header-nav-item-contact a{
+    color: #F2B705;
+}
+.menu {
+    display: none;
+}
+.menu-nav {
+    display: none;
+}
+.menu-nav-list {
+    list-style: none;
+}
+
+.footer {
+    height: 600px;
+    color: #fff;
+    background-color: #f1b667;
+}
+.footer-top {
+    padding-top: 40px;
+}
+.footer-top-ttl {
+    padding-bottom: 20px;
+    font-size: x-large;
+}
+.footer-top-text {
+    padding-bottom: 20px;
+}
+.footer-top-office {
+    padding-top: 20px;
+}
+.footer-nav {
+    margin: 90px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-nav-sec {
+    padding: 0 30px;
+}
+.footer-nav-sec a{
+    color: #fff;
+}
+.footer-nav-ttl{
+    padding-bottom: 20px;
+}
+.footer-nav-list-item {
+    margin-bottom: 20px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .wrap {
+        width: 90%;
+    }
+
+    .header-nav-list {
+        display: none;
+    }
+    .menu {
+        display: inline;
+        width: 36px;
+        height: 32px;
+        cursor: pointer;
+        position: relative;
+        z-index: 10;
+        margin-top: 40px;
+    }
+    .menu-line-top,
+    .menu-line-center,
+    .menu-line-bottom {
+        display: inline-block;
+        width: 100%;
+        height: 2px;
+        background-color: black;
+        position: absolute;
+        transition: 0.5s;
+    }
+    .menu-line-top {
+        top: -10px;
+    }
+    .menu-line-center{
+        top: -5px;
+    }
+    .menu.open span:nth-of-type(1){
+        top: 14px;
+        transform: rotate(45deg);
+    }
+    .menu.open span:nth-of-type(2){
+        opacity: 0;
+    }
+    .menu.open span:nth-of-type(3){
+        top: 14px;
+        transform: rotate(-45deg);
+    }
+    .menu-nav {
+        display: block;
+        position: absolute;
+        height: 100vh;
+        width: 100%;
+        top: 0;
+        left: -100%;
+        background: white;
+        transition: .7s;
+    }
+    .menu-nav-list {
+        padding-top: 80px;
+        text-align: center;
+    }
+    .menu-nav-item {
+        margin-top: 40px;
+        color: aqua;
+        font-size: 18px;
+    }
+    .in{
+        transform: translateX(100%);
+      }
+    
+    .first-view-ttl {
+        font-size: 35px;
+    }
+    .first-view-text {
+        font-size: 15px;
+    }
+
+    .footer {
+        height: 900px;
+    }
+    .footer-top {
+        padding-left: 30px;
+    }
+    .footer-top-text {
+        font-size: 13px;
+    }
+    .footer-nav {
+        margin: 60px 0;
+    }
+    .footer-nav-sec {
+        width: 390px;
+        margin-bottom: 10px;
+    }
+    .footer-nav-list {
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-nav-ttl{
+        padding-bottom: 20px;
+    }
+    .footer small {
+        font-size: 10px;
+    }
+}

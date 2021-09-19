@@ -1,0 +1,120 @@
+
+
+.interview-sec {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f1b56786;
+    margin-bottom: 40px;
+    padding: 40px 20px;
+}
+.interview-img img{
+    width: 80%;
+    padding-left: 10%;
+}
+
+.inteview-content {
+    padding: 40px 40px;
+}
+.interview-class {
+    color: #fff;
+    height: 30px;
+    background-color: #f1b667;
+    border-radius: 6px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.interview-name {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.interview-text {
+    margin-bottom: 10px;
+}
+.interview-more {
+    text-align: right;
+}
+.interview-more a{
+    font-size: 15px;
+    color: #c7842d;
+}
+
+.recruit-group {
+    height: 300px;
+}
+.recruit-flex {
+    height: 150px;
+    margin: 150px 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.recruit-group-sec {
+    width: 50%;
+    padding: 50px 30px;
+    text-align: center;
+    border-right: 1px solid #000;
+}
+.recruit-group-sec:after{
+    border-right: none;
+}
+.recruit-group-sec-ttl {
+    font-size: x-large;
+}
+.recruit-group-sec:last-child {
+    border-right: unset;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .interview-img {
+        width: 60%;
+    }
+    .inteview-content {
+        width: 50%;
+        padding: 10px 30px;
+    }
+    .interview-class {
+        height: 15px;
+        padding: 3px 8px;
+        margin-bottom: 10px;
+        font-size: 8px;
+    }
+    .interview-name {
+        font-size: 21px;
+    }
+    .interview-text {
+        font-size: 5px;
+        margin-bottom: 5px;
+    }
+    .interview-more {
+        font-size: 8px;
+    }
+    .interview-more a{
+        font-size: 5px;
+    }
+
+
+    .recruit-group {
+        height: 150px;
+    }
+    .recruit-flex {
+        height: 50px;
+        margin: 80px 50px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .recruit-group-sec {
+        width: 45%;
+        margin-right: 10px;
+        padding: 20px 20px;
+        text-align: center;
+        border-right: 1px solid #000;
+    }
+    .recruit-group-sec-ttl {
+        font-size: 13px;
+    }
+    .recruit-group-sec p{
+        font-size: 6px;
+    }
+}

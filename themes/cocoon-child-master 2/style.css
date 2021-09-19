@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+/*!
+Theme Name: Cocoon Child
+Description: Cocoon専用の子テーマ
+Theme URI: https://wp-cocoon.com/
+Author: わいひら
+Author URI: https://nelog.jp/
+Template:   cocoon-master
+Version:    1.1.2
+*/
+
+/************************************
+** 子テーマ用のスタイルを書く
+************************************/
+/*必要ならばここにコードを書く*/
+
+img {
+    box-shadow: 0px 0px 0px 0;
+}
+a{
+	color: #808080;
+}
+#author_box-2 .author-content a{
+	color: black;
+	text-decoration: none;
+}
+entry-content {
+	padding: 1rem;
+	padding-top: 0;
+	margin: 0 auto;
+}
+
+blockquote {
+    position: relative;
+    padding: 20px 10px 20px 35px;
+    box-sizing: border-box;
+    font-style: italic;
+    color: #464646;
+    background: #fff0f0;
+}
+
+
+
+blockquote p {
+    padding: 0;
+    margin: 10px 0;
+    line-height: 1.7;
+}
+
+blockquote cite {
+    display: block;
+    text-align: right;
+    color: #888888;
+    font-size: 0.9em;
+}
+
+.box14{
+    padding: 0.3em 0.5em;
+    margin: 3em 5em;
+    background: #ffeaea;
+    box-shadow: 0px 0px 0px 10px #ffeaea;
+    border: dashed 2px white;
+}
+.box14 p {
+    margin: 0; 
+    padding: 0;
+}
+/************************************
+** レスポンシブデザイン用のメディアクエリ
+************************************/
+/*1023px以下*/
+@media screen and (max-width: 1023px){
+  /*必要ならばここにコードを書く*/
+	article > .entry-content, aritcle > 
+	footer.article-footer {
+		padding: 0 20px;
+	}
+}
+
+/*834px以下*/
+@media screen and (max-width: 834px){
+  /*必要ならばここにコードを書く*/
+	.page-body {
+		font-size: 16px;
+	}
+	.box14{
+    padding: 0.3em 0.5em;
+    margin: 0em 0em;
+    background: #ffeaea;
+    box-shadow: 0px 0px 0px 10px #ffeaea;
+    border: dashed 2px white;
+}}
+
+/*480px以下*/
+@media screen and (max-width: 480px){
+  /*必要ならばここにコードを書く*/
+	.page-body {
+		font-size: 15px;
+	}
+}
+img{/*すべてのイメージに影を */
+	box-shadow: 0px 2px 5px 0;
+}

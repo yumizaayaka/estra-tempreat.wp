@@ -1,0 +1,144 @@
+
+
+
+.interview-person {
+    height: 900px;
+    background-color: #f1b56786;
+}
+.interview-person-img {
+    padding-top: 40px;
+    padding-left: 40px;
+}
+.interview-person-img img {
+    width: 100%;
+}
+.interview-person-content {
+    display: flex;
+    justify-content: space-between;
+}
+.interview-person-group {
+    margin: 0 auto;
+    padding-top: 100px;
+}
+.interview-person-class {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.interview-person-name {
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.interview-person-text {
+    padding-bottom: 10px;
+}
+.interview-person-message {
+    text-align: center;
+    margin-top: 40px;
+}
+.interview-person-border-top {
+    border: 1px solid #c7842d;
+    width: 55%;
+    margin-left: 44%;
+}
+.interview-person-border-bottom {
+    border: 1px solid #c7842d;
+    width: 55%;
+    margin-right: 44%;
+}
+.interview-person-message-text {
+    padding: 80px 0;
+    font-size: 30px;
+}
+
+.otherperson {
+    height: 800px;
+    margin-top: 150px;
+}
+.otherperson-ttl {
+    font-size: 40px;
+    padding: 60px  10px ;
+    text-shadow:
+        4px 0 0 #f1b667,
+        0 1px 0 #f1b667,
+        -1px 0 0 #f1b667,
+        0 -1px 0 #f1b667;
+}
+.otherperson-group {
+    display: flex;
+    flex-wrap: wrap;
+}
+.otherperson-item img{
+    width: 420px;
+    height: auto;
+}
+
+.recruit-group {
+    height: 300px;
+}
+.recruit-flex {
+    height: 150px;
+    margin: 150px 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.recruit-group-sec {
+    width: 50%;
+    padding: 50px 30px;
+    text-align: center;
+    border-right: 1px solid #000;
+}
+.recruit-group-sec:after{
+    border-right: none;
+}
+.recruit-group-sec-ttl {
+    font-size: x-large;
+}
+.recruit-group-sec:last-child {
+    border-right: unset;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .interview-person-content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .interview-person-group {
+        padding-top: 50px;
+    }
+    .interview-person-class {
+        font-size: 20px;
+    }
+    .interview-person-name {
+        font-size: 40px;
+    }
+    .interview-person-message-text {
+        font-size: 20px;
+    }
+    
+
+    .recruit-group {
+        height: 150px;
+    }
+    .recruit-flex {
+        height: 50px;
+        margin: 80px 50px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .recruit-group-sec {
+        width: 45%;
+        margin-right: 10px;
+        padding: 20px 20px;
+        text-align: center;
+        border-right: 1px solid #000;
+    }
+    .recruit-group-sec-ttl {
+        font-size: 13px;
+    }
+    .recruit-group-sec p{
+        font-size: 6px;
+    }
+}
