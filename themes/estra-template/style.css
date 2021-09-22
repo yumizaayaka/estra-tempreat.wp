@@ -111,7 +111,7 @@ Theme Name: estra-template
 .recruit {
     margin-top: 50px;
 }
-.recruit-flex {
+.recruit-flex-first {
     height: 500px;
     position: relative;
     margin-top: 50px;
@@ -347,7 +347,7 @@ Theme Name: estra-template
 
 
 /* news */
-.news-content {
+.news-contents {
     height: 1100px;
     display: flex;
 }

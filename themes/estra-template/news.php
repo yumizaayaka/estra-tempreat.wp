@@ -6,7 +6,7 @@
                 <p class="first-view-sub-ttl">NEWS</p>
             </div>
         </div>
-        <div class="news-content">
+        <div class="news-contents">
             <div class="wrap">
                 <div class="category">
                     <h2 class="category-ttl">CATEGORY</h2>

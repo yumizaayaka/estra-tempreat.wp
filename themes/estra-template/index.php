@@ -72,7 +72,7 @@
         </div>
         <div class="recruit">
             <h3 class="site-ttl">Recruit</h3>
-            <div class="recruit-flex wrap">
+            <div class="recruit-flex-first wrap">
                 <div class="recruit-img">
                     <img src="<?php echo get_template_directory_uri().'/img/4516865_s.jpg'; ?>" alt="">
                 </div>
