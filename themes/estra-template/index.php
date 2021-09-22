@@ -1,4 +1,4 @@
-<?php wp_head(); ?>
+<?php get_header(); ?>
     <main>
         <div class="home-first-view">
             <div class="wrap">
@@ -65,7 +65,7 @@
             <h3 class="site-ttl">Service</h3>
             <div class="service-contet">
                 <div class="service-flex-item">
-                    <img class="service-content-item" src="<?php echo get_template_directory_uri(); ?>.'/img/4803612_s.jpg'" alt="">
+                    <img class="service-content-item" src="<?php echo get_template_directory_uri().'/img/4803612_s.jpg'; ?>" alt="">
                     <div class="service-content-text">
                         <h2 class="service-content-ttl">フリーランス特化型プログラミングスクール「COACHTECH」</h2>
                         <p>COACHTECH(コーチテック)はフリーランス特化型のオンラインコーチングプログラミングスクールです。<br>
@@ -101,13 +101,13 @@
                 <div class="recruit-text">採用情報について</div>
                 <div class="flex-item">
                     <div class="recruit-group">
-                        <a class="recruit-group-text" href="<?php echo esc_url(home_url('/recruit.php')); ?>">新卒採用</a>
+                        <a class="recruit-group-text" href="<?php echo esc_url(home_url('/recruit')); ?>">新卒採用</a>
                     </div>
                     <div class="recruit-group left">
-                        <a class="recruit-group-text" href="<?php echo esc_url(home_url('/recruit.php')); ?>">中途採用</a>
+                        <a class="recruit-group-text" href="<?php echo esc_url(home_url('/recruit')); ?>">中途採用</a>
                     </div>
                 </div>
             </div>
         </div>
     </main>
-<?php wp_footer(); ?>
+<?php get_footer(); ?>

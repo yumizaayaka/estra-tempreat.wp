@@ -1,4 +1,10 @@
-<?php wp_head(); ?>
+<?php
+/*
+Template Name: about
+*/
+?>
+
+<?php get_header(); ?>
 <main>
         <div class="first-view">
             <div class="wrap">
@@ -66,4 +72,5 @@
             </div>
         </div>
     </main>
-<?php wp_footer(); ?>
+    <?php get_footer(); ?>
+
