@@ -39,25 +39,25 @@ Template Name: about-greething
                 <div class="about-flex">
                     <section class="about-group-sec">
                         <h3 class="about-group-sec-ttl">
-                            <a href="./member.html">設立メンバー</a>
+                            <a href="<?php echo esc_url(home_url('/about-member')); ?>">設立メンバー</a>
                         </h3>
                         <p>member</p>
                     </section>
                     <section class="about-group-sec">
                         <h3 class="about-group-sec-ttl">
-                            <a href="./philosophy.html">経営理念</a>
+                            <a href="<?php echo esc_url(home_url('/about-philosophy')); ?>">経営理念</a>
                         </h3>
                         <p>philosophy </p>
                     </section>
                     <section class="about-group-sec">
                         <h3 class="about-group-sec-ttl">
-                            <a href="./company.html">会社概要</a>
+                            <a href="<?php echo esc_url(home_url('/about-company')); ?>">会社概要</a>
                         </h3>
                         <p>company </p>
                     </section>
                     <section class="about-group-sec">
                         <h3 class="about-group-sec-ttl">
-                            <a href="./greething.html">代表挨拶</a>
+                            <a href="<?php echo esc_url(home_url('/about-greething')); ?>">代表挨拶</a>
                         </h3>
                         <p>greething</p>
                     </section>

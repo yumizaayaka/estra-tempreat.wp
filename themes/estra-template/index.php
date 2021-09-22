@@ -63,18 +63,18 @@
                             Web会議、面談予約、チャット、学習計画作成、学習状況の把握、教材管理、指導報告書作成といったコーチングにおいて必要な機能が1つにまとまった業務効率化を支えるSaaS<br>
                             </p>
                     </div>
-                    <img class="service-content-item order" src="<?php echo get_template_directory_uri(); ?>.'/img/4653784_s.jpg'" alt="">
+                    <img class="service-content-item order" src="<?php echo get_template_directory_uri().'/img/4653784_s.jpg'; ?>" alt="">
                 </div>
             </div>
             <div class="service-link">
-                <a href="<?php echo esc_url(home_url('/service.php')); ?>">view more</a>
+                <a href="<?php echo esc_url(home_url('/service')); ?>">view more</a>
             </div>
         </div>
         <div class="recruit">
             <h3 class="site-ttl">Recruit</h3>
             <div class="recruit-flex wrap">
                 <div class="recruit-img">
-                    <img src="<?php echo get_template_directory_uri(); ?>.'/img/4516865_s.jpg'" alt="">
+                    <img src="<?php echo get_template_directory_uri().'/img/4516865_s.jpg'; ?>" alt="">
                 </div>
                 <div class="recruit-content">
                     <h1 class="recruit-content-ttl">日本の教育を変革する最前線で活躍する人材に</h1>

@@ -1,4 +1,11 @@
-<?php wp_head(); ?>
+<?php
+/*
+Template Name: enviroment
+*/
+?>
+
+<?php get_header(); ?>
+
 <main>
         <div class="first-view">
             <div class="wrap">

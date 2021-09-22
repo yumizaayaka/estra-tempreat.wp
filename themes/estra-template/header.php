@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Klee+One&family=Sawarabi+Mincho&family=Shippori+Mincho:wght@500&display=swap" rel="stylesheet">
     <title>estra</title>
     <?php wp_head(); ?>
-    
+
 </head>
 <body>
     <header class="header">
@@ -19,27 +19,27 @@
         <nav class="header-nav">
             <ul class="header-nav-list">
                 <li class="header-nav-item">
-                    <a class="header-nav-item-ttl" href="about/index.html">about</a>
+                    <a class="header-nav-item-ttl" href="<?php echo esc_url(home_url('/about')); ?>">about</a>
                     <p>私たちについて</p>
                 </li>
                 <li class="header-nav-item">
-                    <a class="header-nav-item-ttl" href="<?php echo esc_url(home_url('/news.php')); ?>">news</a>
+                    <a class="header-nav-item-ttl" href="<?php echo esc_url(home_url('/news')); ?>">news</a>
                     <p>ニュース</p>
                 </li>
                 <li class="header-nav-item">
-                    <a class="header-nav-item-ttl" href="<?php echo esc_url(home_url('/service.php')); ?>">service</a>
+                    <a class="header-nav-item-ttl" href="<?php echo esc_url(home_url('/service')); ?>">service</a>
                     <p>サービス</p>
                 </li>
                 <li class="header-nav-item">
-                    <a class="header-nav-item-ttl" href="<?php echo esc_url(home_url('/recruit.php')); ?>">recruit</a>
+                    <a class="header-nav-item-ttl" href="<?php echo esc_url(home_url('/recruit')); ?>">recruit</a>
                     <p>採用情報</p>
                 </li>
                 <li class="header-nav-item">
-                    <a class="header-nav-item-ttl" href="<?php echo esc_url(home_url('/privacy.php')); ?>">privacy</a>
+                    <a class="header-nav-item-ttl" href="<?php echo esc_url(home_url('/privacy')); ?>">privacy</a>
                     <p>プライバシー保護</p>
                 </li>
                 <li class="header-nav-item-contact">
-                    <a class="header-nav-item-ttl" href="<?php echo esc_url(home_url('/contact.php')); ?>">お問い合わせ</a>
+                    <a class="header-nav-item-ttl" href="<?php echo esc_url(home_url('/contact')); ?>">お問い合わせ</a>
                 </li>
             </ul>
         </nav>
@@ -52,22 +52,22 @@
         <nav class="menu-nav" id="menu-nav">
             <ul class="menu-nav-list">
                 <li class="menu-nav-item">
-                    <a href="about/index.html">about</a>
+                    <a href="<?php echo esc_url(home_url('/about')); ?>">about</a>
                 </li>
                 <li class="menu-nav-item">
-                    <a href="<?php echo esc_url(home_url('/news.php')); ?>">news</a>
+                    <a href="<?php echo esc_url(home_url('/news')); ?>">news</a>
                 </li>
                 <li class="menu-nav-item">
-                    <a href="<?php echo esc_url(home_url('/service.php')); ?>">service</a>
+                    <a href="<?php echo esc_url(home_url('/service')); ?>">service</a>
                 </li>
                 <li class="menu-nav-item">
-                    <a href="<?php echo esc_url(home_url('/recruit.php')); ?>">recruit</a>
+                    <a href="<?php echo esc_url(home_url('/recruit')); ?>">recruit</a>
                 </li>
                 <li class="menu-nav-item">
-                    <a href="<?php echo esc_url(home_url('/privacy.php')); ?>">privacy</a>
+                    <a href="<?php echo esc_url(home_url('/privacy')); ?>">privacy</a>
                 </li>
                 <li class="menu-nav-item">
-                    <a href="<?php echo esc_url(home_url('/contact.php')); ?>">contact</a>
+                    <a href="<?php echo esc_url(home_url('/contact')); ?>">contact</a>
                 </li>
             </ul>
         </nav>

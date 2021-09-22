@@ -14,76 +14,76 @@
             <div class="footer-nav">
                 <section class="footer-nav-sec">
                     <h3 class="footer-nav-ttl">
-                        <a href="about/index.html">about</a>
+                        <a href="<?php echo esc_url(home_url('/about')); ?>">about</a>
                     </h3>
                     <ul class="footer-nav-list">
                         <li class="footer-nav-list-item">
-                            <a href="about/member.html" class="footer-nav-list-anc">メンバー</a>
+                            <a href="<?php echo esc_url(home_url('/about-member')); ?>" class="footer-nav-list-anc">メンバー</a>
                         </li>
                         <li class="footer-nav-list-item">
-                            <a href="about/philosophy.html" class="footer-nav-list-anc">経営理念</a>
+                            <a href="<?php echo esc_url(home_url('/about-philosophy')); ?>" class="footer-nav-list-anc">経営理念</a>
                         </li>
                         <li class="footer-nav-list-item">
-                            <a href="about.html/#company" class="footer-nav-list-anc">会社概要</a>
+                            <a href="<?php echo esc_url(home_url('/about-company')); ?>" class="footer-nav-list-anc">会社概要</a>
                         </li>
                         <li class="footer-nav-list-item">
-                            <a href="about.html/#greeting" class="footer-nav-list-anc">代表挨拶</a>
+                            <a href="<?php echo esc_url(home_url('/about-greething')); ?>" class="footer-nav-list-anc">代表挨拶</a>
                         </li>
                     </ul>
                 </section>
                 <section class="footer-nav-sec">
                     <h3 class="footer-nav-ttl">
-                        <a href="<?php echo esc_url(home_url('/news.php')); ?>">news</a>
+                        <a href="<?php echo esc_url(home_url('/news')); ?>">news</a>
                     </h3>
                     <ul class="footer-nav-list">
                         <li class="footer-nav-list-item">
-                            <a href="<?php echo esc_url(home_url('/news.php')); ?>" class="footer-nav-list-anc">ニュース一覧</a>
+                            <a href="<?php echo esc_url(home_url('/news')); ?>" class="footer-nav-list-anc">ニュース一覧</a>
                         </li>
                     </ul>
                 </section>
                 <section class="footer-nav-sec">
                     <h3 class="footer-nav-ttl">
-                        <a href="<?php echo esc_url(home_url('/service.php')); ?>">service</a>
+                        <a href="<?php echo esc_url(home_url('/service')); ?>">service</a>
                     </h3>
                     <ul class="footer-nav-list">
                         <li class="footer-nav-list-item">
-                            <a href="<?php echo esc_url(home_url('/service.php')); ?>" class="footer-nav-list-anc">サービス一覧</a>
+                            <a href="<?php echo esc_url(home_url('/service')); ?>" class="footer-nav-list-anc">サービス一覧</a>
                         </li>
                     </ul>
                 </section>
                 <section class="footer-nav-sec">
                     <h3 class="footer-nav-ttl">
-                        <a href="<?php echo esc_url(home_url('/recruit.php')); ?>">recruit</a>
+                        <a href="<?php echo esc_url(home_url('/recruit')); ?>">recruit</a>
                     </h3>
                     <ul class="footer-nav-list">
                         <li class="footer-nav-list-item">
-                            <a href="<?php echo esc_url(home_url('/recruit.php')); ?>" class="footer-nav-list-anc">採用情報</a>
+                            <a href="<?php echo esc_url(home_url('/recruit')); ?>" class="footer-nav-list-anc">採用情報</a>
                         </li>
                         <li class="footer-nav-list-item">
-                            <a href="<?php echo esc_url(home_url('/interview.php')); ?>" class="footer-nav-list-anc">インタビュー</a>
+                            <a href="<?php echo esc_url(home_url('/interview')); ?>" class="footer-nav-list-anc">インタビュー</a>
                         </li>
                         <li class="footer-nav-list-item">
-                            <a href="<?php echo esc_url(home_url('/environment.php')); ?>" class="footer-nav-list-anc">働く環境</a>
+                            <a href="<?php echo esc_url(home_url('/environment')); ?>" class="footer-nav-list-anc">働く環境</a>
                         </li>
                     </ul>
                 </section>
                 <section class="footer-nav-sec">
                     <h3 class="footer-nav-ttl">
-                        <a href="<?php echo esc_url(home_url('/privacy.php')); ?>">privacy</a>
+                        <a href="<?php echo esc_url(home_url('/privacy')); ?>">privacy</a>
                     </h3>
                     <ul class="footer-nav-list">
                         <li class="footer-nav-list-item">
-                            <a href="<?php echo esc_url(home_url('/privacy.php')); ?>" class="footer-nav-list-anc">個人情報保護</a>
+                            <a href="<?php echo esc_url(home_url('/privacy')); ?>" class="footer-nav-list-anc">個人情報保護</a>
                         </li>
                     </ul>
                 </section>
                 <section class="footer-nav-sec">
                     <h3 class="footer-nav-ttl">
-                        <a href="<?php echo esc_url(home_url('/contact.php')); ?>">contact</a>
+                        <a href="<?php echo esc_url(home_url('/contact')); ?>">contact</a>
                     </h3>
                     <ul class="footer-nav-list">
                         <li class="footer-nav-list-item">
-                            <a href="<?php echo esc_url(home_url('/contact.php')); ?>" class="footer-nav-list-anc">お問い合わせ</a>
+                            <a href="<?php echo esc_url(home_url('/contact')); ?>" class="footer-nav-list-anc">お問い合わせ</a>
                         </li>
                     </ul>
                 </section>
