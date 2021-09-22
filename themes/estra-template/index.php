@@ -37,22 +37,6 @@
                         <?php endwhile; ?>
                     <?php endif; ?>
 
-                    <!-- 違うサイトのを参考↓　-->
-                    <ul>
-                    <?php
-                        $args = array(
-                            'posts_per_page' => 5 // 表示件数の指定
-                        );
-                        $posts = get_posts( $args );
-                        foreach ( $posts as $post ): // ループの開始
-                        setup_postdata( $post ); // 記事データの取得
-                    ?>
-                    <?php
-                        endforeach; // ループの終了
-                        wp_reset_postdata(); // 直前のクエリを復元する
-                    ?>
-                    </ul>
-
                     <p class="news-site">estra 新代々木オフィス昨年12月に移転しました</p>
                     <p class="news-site">コーポレートサイトリニューアルのお知らせ</p>
                     <p class="news-site">新型コロナウイルス感染症に関する対応について</p>

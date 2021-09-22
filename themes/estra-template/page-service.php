@@ -1,4 +1,10 @@
-<?php wp_head(); ?>
+<?php
+/*
+Template Name: service
+*/
+?>
+<?php get_header(); ?>
+
 <main>
         <div class="first-view">
             <div class="wrap">
@@ -83,4 +89,4 @@
         </div>
 
     </main>
-<?php wp_footer(); ?>
+<?php get_footer(); ?>
